@@ -3,3 +3,30 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+#header {
+    background: #FFDBAA;
+    color: #553100;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+#nav {
+    clear: both;
+    float: right;
+    display: inline;
+}
+
+#nav, a {
+    text-decoration: none;
+    background: #805215;
+    color: whitesmoke;
+    padding: 10px 5px 15px 20px;
+    font-size: large;
+}
+
+#main {
+    background: #d4a76a;
+}
+
